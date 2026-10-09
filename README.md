@@ -229,54 +229,32 @@ This metric requires a clearly defined plan and reliable recording. It should be
 
 ## ⚙️ 11. Operational Metrics
 
--   **Onboarding completion rate:** Percentage of users who successfully
-    complete onboarding.
--   **Authentication success rate:** Successful logins divided by valid
-    login attempts.
--   **Data persistence success rate:** Percentage of records saved and
-    retrievable after a session or device restart.
--   **Service availability:** Availability of authentication, profile,
-    check-in, and history services.
+-   **Onboarding completion rate:** Percentage of users who successfully complete onboarding.
+-   **Authentication success rate:** Successful logins divided by valid login attempts.
+-   **Data persistence success rate:** Percentage of records saved and retrievable after a session or device restart.
+-   **Service availability:** Availability of authentication, profile, check-in, and history services.
 -   **Error rate:** Failed requests and user actions by feature.
--   **Upload success rate:** Successful uploads divided by attempted
-    uploads.
--   **Appointment request fulfilment:** Percentage of requests receiving
-    a valid, timely status update.
--   **Doctor verification coverage:** Percentage of displayed doctor
-    profiles with verified credentials and current details.
--   **Support response time:** Time to acknowledge and resolve
-    user-reported issues.
--   **Privacy and security incidents:** Number and severity of
-    unauthorised-access events, consent failures, or data-handling
-    incidents.
+-   **Upload success rate:** Successful uploads divided by attempted uploads.
+-   **Appointment request fulfilment:** Percentage of requests receiving a valid, timely status update.
+-   **Doctor verification coverage:** Percentage of displayed doctor profiles with verified credentials and current details.
+-   **Support response time:** Time to acknowledge and resolve user-reported issues.
+-   **Privacy and security incidents:** Number and severity of unauthorised-access events, consent failures, or data-handling incidents.
 
-Operational targets should be set after baseline measurement. Simulated
-prototype interactions must not be reported as production results.
 
 ## 🧭 12. User Experience Metrics
 
--   **Time to first value:** Time from account creation to the first
-    completed assessment or meaningful check-in.
--   **Check-in completion time:** Median time needed to complete a daily
-    check-in.
--   **Task success rate:** Percentage of users who complete key tasks
-    without assistance.
--   **Drop-off rate:** Percentage of users abandoning onboarding,
-    assessment, check-in, or appointment flows.
--   **Usability satisfaction:** User-reported ease of use after a task
-    or during periodic feedback.
--   **Perceived usefulness:** Percentage of users who say Pulse helps
-    them understand their reported habits or prepare for a consultation.
--   **Trust and clarity:** User understanding of the Pulse score, its
-    limitations, and what information is shared.
--   **Accessibility and device performance:** Task success and loading
-    performance on budget Android devices and slower connections.
--   **Privacy-control success:** Percentage of users who can correctly
-    view, grant, revoke, or understand sharing permissions.
--   **Qualitative feedback:** Themes from user interviews, usability
-    sessions, and support feedback.
+-   **Time to first value:** Time from account creation to the first completed assessment or meaningful check-in.
+-   **Check-in completion time:** Median time needed to complete a daily check-in.
+-   **Task success rate:** Percentage of users who complete key tasks without assistance.
+-   **Drop-off rate:** Percentage of users abandoning onboarding, asessment, check-in, or appointment flows.
+-   **Usability satisfaction:** User-reported ease of use after a task or during periodic feedback.
+-   **Perceived usefulness:** Percentage of users who say Pulse helps them understand their reported habits or prepare for a consultation.
+-   **Trust and clarity:** User understanding of the Pulse score, its limitations, and what information is shared.
+-   **Accessibility and device performance:** Task success and loading performance on budget Android devices and slower connections.
+-   **Privacy-control success:** Percentage of users who can correctly view, grant, revoke, or understand sharing permissions.
+-   **Qualitative feedback:** Themes from user interviews, usability sessions, and support feedback.
 
-These metrics should be measured through usability testing and
+These metrics should be measured through **usability testing** and
 appropriately consented product analytics. Establish baselines before
 setting targets.
 
@@ -284,64 +262,47 @@ setting targets.
 
 ### 1. Make tracking lightweight
 
-Daily health routines should not feel like another demanding task. Pulse
-uses short check-ins and visible progress to reduce friction.
+Daily health routines should not feel like another demanding task. Pulse uses short check-ins and visible progress to reduce friction.
 
 ### 2. Explain progress through continuous engagement 
 
-The Pulse score is intended as a health-awareness aid based on
-user-reported information. It must not be presented as a validated
-clinical score without appropriate evidence and review.
+The Pulse score is intended as a health-awareness aid based on user-reported information. It must not be presented as a validated clinical score without appropriate evidence and review.
 
 ### 3. Keep sensitive data private by default
 
-Health information should be visible only to the account owner unless
-the user explicitly grants access. Sharing permissions should be
-understandable and revocable.
+Health information should be visible only to the account owner unless the user explicitly grants access. Sharing permissions should be understandable and revocable.
 
 ### 4. Support clinicians rather than replace them
 
-Pulse can organise information and prepare summaries, while diagnosis
-and treatment decisions remain with qualified healthcare professionals.
+Pulse can organise information and prepare summaries, while diagnosis and treatment decisions remain with qualified healthcare professionals.
 
 ### 5. Be honest about product states
 
-Demo data, fictional doctor profiles, pending appointment requests, and
-simulated interactions must be clearly distinguished from verified
-information and confirmed real-world actions.
+Demo data, fictional doctor profiles, pending appointment requests, and simulated interactions must be clearly distinguished from verified information and confirmed real-world actions.
 
 ## 🔮 13. Future Scope
 
 Future versions of Pulse could expand through the following steps:
 
-1.  **Validate the beachhead:** Interview target users and healthcare
-    professionals to confirm the highest-value initial use case.
-2.  **Complete the secure backend:** Implement authentication,
-    account-specific data storage, access controls, backups, and
+1.  **Validate the beachhead:** Interview target users and healthcare professionals to confirm the highest-value initial use case.
+2.  **Complete the secure backend:** Implement authentication, account-specific data storage, access controls, backups, and
     recovery.
-3.  **Validate scoring and safety rules:** Review health-related copy,
-    scoring logic, thresholds, and escalation flows with qualified
-    clinicians.
-4.  **Connect verified care providers:** Integrate provider credentials,
-    availability, appointment status, and follow-up workflows.
-5.  **Improve interoperability:** Explore user-consented connections to
-    wearables, lab records, and other health-data sources.
-6.  **Build a safe support ecosystem:** Add moderation, reporting,
-    blocking, and privacy safeguards before launching community
+3.  **Validate scoring and safety rules:** Review health-related copy, scoring logic, thresholds, and escalation flows with qualified clinicians.
+4.  **Connect verified care providers:** Integrate provider credentials, availability, appointment status, and follow-up workflows.
+5.  **Improve interoperability:** Explore user-consented connections to wearables, lab records, and other health-data sources.
+6.  **Build a safe support ecosystem:** Add moderation, reporting, blocking, and privacy safeguards before launching community
     features.
-7.  **Test accessibility and reliability:** Validate the experience on
-    budget Android devices, low-bandwidth connections, and varied
-    digital-literacy levels.
-8.  **Run outcome-oriented pilots:** Evaluate whether Pulse improves
-    care continuity and user-reported behaviours over time. Clinical
-    efficacy must not be claimed without appropriate evidence.
-9.  **Explore sustainable monetisation:** Test willingness to pay and
-    potential partnerships while keeping trust, privacy, and
-    affordability central.
+7.  **Test accessibility and reliability:** Validate the experience on budget Android devices, low-bandwidth connections, and varied digital-literacy levels.
+8.  **Run outcome-oriented pilots:** Evaluate whether Pulse improves care continuity and user-reported behaviours over time. Clinical efficacy must not be claimed without appropriate evidence.
+9.  **Explore sustainable monetisation:** Test willingness to pay and potential partnerships while keeping trust, privacy, and affordability central.
 
 ## 📁 Repository Contents
 Readme
 main
+Wireframe file
+Presentation file
+Follow this steps to use app: <img width="328" height="382" alt="{A27AEBC3-81F0-45C0-BC81-238B1D04D47A}" src="https://github.com/user-attachments/assets/1f45f598-f3b5-414e-8390-b9a31bfa4ab6" />
+
 
 
 ```📌 Conclusion: Pulse reimagines health support as an ongoing journey rather than a series of isolated consultations. By combining lightweight daily check-ins, understandable progress views, organised health information, and preparation for professional care, the product aims to help people stay engaged between visits. The next step is to validate the priority user need, implement secure data handling, and test whether the experience improves meaningful care continuity. ## Project Status & Safety Notice: Pulse is an MVP/prototype concept. Sample values, sample doctor profiles, draft scoring rules, and simulated interactions must not be treated as verified patient data, clinical recommendations, confirmed appointments, or evidence of health outcomes.
