@@ -1,7 +1,8 @@
 # Pulse_3.0
 Application: https://app.emergent.sh/share-preview?app=exp%3A%2F%2Fpulse-care-4.preview.emergentagent.com%3Fexpo_go_prompt_device_auth%3D1%26expo_go_device_auth_verification_uri_override%3Dapp.emergent.sh&job_id=9b9ccb01-bad7-4fb8-ae01-3db1c70c82dc
 
-Wireframe reference: https://www.figma.com/make/XkxJBBf63Fn7oWLiyr2Ten/Create-Wireframes?code-node-id=0-6&p=f&t=LxcGK91gDRChG6Cu-0&fullscreen=1
+Wireframe reference: https://pulse-ten-teal-54.vercel.app/
+
 
 🎯 1. **Overview**: 
 Pulse is a health-awareness companion designed to help people build sustainable everyday health habits, understand self-reported trends, and prepare for more informed conversations with healthcare professionals.
