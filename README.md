@@ -393,44 +393,6 @@ Future versions of Pulse could expand through the following steps:
 
 ## 📁 Repository Contents
 
-Pulse/
-├── README.md
-├── assets/                 # Optional screenshots and design assets
-├── app/                    # Add when the application source is included
-└── docs/                   # Optional product notes and documentation
-```
+```📌 Conclusion: Pulse reimagines health support as an ongoing journey rather than a series of isolated consultations. By combining lightweight daily check-ins, understandable progress views, organised health information, and preparation for professional care, the product aims to help people stay engaged between visits. The next step is to validate the priority user need, implement secure data handling, and test whether the experience improves meaningful care continuity. ## Project Status & Safety Notice: Pulse is an MVP/prototype concept. Sample values, sample doctor profiles, draft scoring rules, and simulated interactions must not be treated as verified patient data, clinical recommendations, confirmed appointments, or evidence of health outcomes.
 
-## 📌 Conclusion
 
-Pulse reimagines health support as an ongoing journey rather than a
-series of isolated consultations. By combining lightweight daily
-check-ins, understandable progress views, organised health information,
-and preparation for professional care, the product aims to help people
-stay engaged between visits.
-
-The next step is to validate the priority user need, implement secure
-data handling, and test whether the experience improves meaningful care
-continuity.
-
-## Project Status & Safety Notice
-
-Pulse is an MVP/prototype concept. Sample values, sample doctor
-profiles, draft scoring rules, and simulated interactions must not be
-treated as verified patient data, clinical recommendations, confirmed
-appointments, or evidence of health outcomes.
-
-Before production use, the product requires secure backend
-implementation, privacy and security review, clinical validation of
-health-related rules and content, verification of provider data, and
-testing of any emergency or escalation workflow.
-
-## Contributing
-
-Feedback and usability observations are welcome. Open an issue
-describing the proposed change or improvement before submitting a pull
-request.
-
-## License
-
-No license has been specified yet. Add a `LICENSE` file before
-presenting this repository as open source.
