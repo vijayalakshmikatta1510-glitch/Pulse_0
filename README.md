@@ -392,6 +392,9 @@ Future versions of Pulse could expand through the following steps:
     affordability central.
 
 ## 📁 Repository Contents
+Readme
+main
+
 
 ```📌 Conclusion: Pulse reimagines health support as an ongoing journey rather than a series of isolated consultations. By combining lightweight daily check-ins, understandable progress views, organised health information, and preparation for professional care, the product aims to help people stay engaged between visits. The next step is to validate the priority user need, implement secure data handling, and test whether the experience improves meaningful care continuity. ## Project Status & Safety Notice: Pulse is an MVP/prototype concept. Sample values, sample doctor profiles, draft scoring rules, and simulated interactions must not be treated as verified patient data, clinical recommendations, confirmed appointments, or evidence of health outcomes.
 
