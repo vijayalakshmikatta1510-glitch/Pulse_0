@@ -1,7 +1,9 @@
 # Pulse_3.0
-Healthcare tech with pulse
-Overview
+Application: https://app.emergent.sh/share-preview?app=exp%3A%2F%2Fpulse-care-4.preview.emergentagent.com%3Fexpo_go_prompt_device_auth%3D1%26expo_go_device_auth_verification_uri_override%3Dapp.emergent.sh&job_id=9b9ccb01-bad7-4fb8-ae01-3db1c70c82dc
 
+Wireframe reference: https://www.figma.com/make/XkxJBBf63Fn7oWLiyr2Ten/Create-Wireframes?code-node-id=0-6&p=f&t=LxcGK91gDRChG6Cu-0&fullscreen=1
+
+Overview
 Pulse is a health-awareness companion designed to help people build
 sustainable everyday health habits, understand self-reported trends, and
 prepare for more informed conversations with healthcare professionals.
@@ -50,6 +52,8 @@ or compromising privacy?**
     high work stress and frequently orders food.
 -   **Digital behaviour:** Comfortable with apps and wearables; has
     already tried fitness apps and an online diet plan.
+    
+<img width="382" height="645" alt="{54B8C82F-E6D0-4715-AE38-8854B06CD64E}" src="https://github.com/user-attachments/assets/f3514c0d-7b34-4cf9-ac2b-10674aa172d5" />
 
 ### Goals
 
@@ -158,6 +162,7 @@ over time.
 **Key features:** - Pulse 60 daily check-in - Movement, nourishment, and
 wellbeing tracking - Check-in progress and history - Relevant symptom
 and cycle tracking - Health timeline and report organisation
+<img width="375" height="512" alt="{21204A59-1EB8-41A5-A690-18F6D487868E}" src="https://github.com/user-attachments/assets/276f6ae1-1564-4dda-85b9-dd3b78a4bb60" />
 
 **Why this matters:** Small, low-friction actions can make ongoing
 tracking easier to sustain.
@@ -173,6 +178,9 @@ controls for sharing information
 **Why this matters:** A structured summary can help users communicate
 what happened between visits. Real doctor verification, availability,
 booking, and sharing workflows require production integrations.
+
+<img width="400" height="495" alt="{4637D42A-2EDC-4804-BCBA-3A200794F53D}" src="https://github.com/user-attachments/assets/9bb19a01-9fa3-4eff-99d6-75019b691349" />
+
 
 ## 🏗️ 8. MVP Features
 
@@ -219,6 +227,8 @@ a production backend or live integration is available.
   Community/support concepts          Explore peer support, subject to
                                       moderation and privacy safeguards
   -----------------------------------------------------------------------
+  <img width="382" height="498" alt="{3C2934C7-B4FC-4DE7-8ED6-9DE12FDC72F0}" src="https://github.com/user-attachments/assets/af920ef1-23b4-499f-b440-69830852e1b0" />
+
 
 ## ✨ 9. Future Enhancements (Premium Features)
 
