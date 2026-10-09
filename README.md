@@ -3,7 +3,7 @@ Application: https://app.emergent.sh/share-preview?app=exp%3A%2F%2Fpulse-care-4.
 
 Wireframe reference: https://www.figma.com/make/XkxJBBf63Fn7oWLiyr2Ten/Create-Wireframes?code-node-id=0-6&p=f&t=LxcGK91gDRChG6Cu-0&fullscreen=1
 
-**Overview**
+**Overview**: 
 Pulse is a health-awareness companion designed to help people build
 sustainable everyday health habits, understand self-reported trends, and
 prepare for more informed conversations with healthcare professionals.
